@@ -1,0 +1,26 @@
+body{
+    background-color: silver;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center; 
+    color:#282A35;
+    }
+h4{
+    text-align: center;
+    font-size: 20px;
+    color:#282A35;
+    }
+.parrafo{
+    font-size: 15px;    
+}
+.cpu{
+    width: 300px;
+    height: 300px;
+}
+.centrar{
+    text-align: center;
+}
+.footer{
+    text-align: right;
+}
