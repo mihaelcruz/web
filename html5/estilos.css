@@ -21,6 +21,12 @@ h4{
 .centrar{
     text-align: center;
 }
+.centro{
+    margin: 0 auto;
+}
 .footer{
     text-align: right;
+}
+table td{
+    border: 1px solid black;
 }
