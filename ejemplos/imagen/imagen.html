@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagen Responsiva</title>
+<style>
+    /*para PC*/
+    @media screen and (max-width: 1200px){
+        body{
+            background-color: cadetblue;
+        }
+        .imagen{
+        background-image:url('img/pc.jpg');
+        height: 500px;
+        }
+    }
+    /*para tablet*/
+    @media screen and (max-width: 770px){
+        body{
+            background-color:crimson;
+        }
+        .imagen{
+        background-image:url('img/tablet.jpg');
+        height: 500px;
+        }
+    }
+    /*para celular*/
+    @media screen and (max-width: 480px){
+        body{
+            background-color:darkslategrey;
+        }
+        .imagen{
+        background-image:url('img/celular.jpg');
+        height: 500px;
+        }
+    }
+
+ 
+    
+</style>
+
+</head> 
+<body> 
+    <h1>Imagen responsiva</h1>
+   <div class="imagen">
+
+   </div>
+</body> 
+</html> 
